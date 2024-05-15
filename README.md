@@ -1,2 +1,3 @@
 # TFGConnect
-TFGConnect repository 
+TFGConnect repository
+We are group 16.
