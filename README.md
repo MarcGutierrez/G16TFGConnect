@@ -51,33 +51,37 @@ Omar Hamze
 
 ## Github Actions
 
-name: Java CI
+name: C++ CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up JDK 11
-      uses: actions/setup-java@v3
+    - name: Set up C++ environment
+      uses: actions/setup-cpp@v1
       with:
-        distribution: 'adopt'
-        java-version: '11'
+        compiler: gcc
 
-    - name: Build with Maven
-      run: mvn clean install
+    - name: Install dependencies
+      run: sudo apt-get install -y make g++
 
-    - name: Run tests with Maven
-      run: mvn test
+    - name: Build
+      run: make
+
+    - name: Run tests
+      run: ./tests
 
 ## Llicència
 
