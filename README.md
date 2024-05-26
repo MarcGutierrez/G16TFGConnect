@@ -2,36 +2,36 @@
 TFGConnect repository
 
 ## Taula de Continguts
-- [Instal·lació](#instal·lació)
-- [Ús](#ús)
-- [Contribució](#contribució)
+- [Installation](#installation)
+- [Use](#use)
+- [Contribution](#contribution)
 - [GitHub Actions](#github-actions)
-- [Llicència](#llicència)
+- [License](#license)
 
-## Instal·lació
+## Installation
 
-1. Clonar el repositori:
+1. Clone the repository:
     ```sh
-    git clone https://github.com/nom-usuari/nom-repositori.git
+    git clone https://github.com/MarcGutiérrez/G16TFGConnect.git
     ```
-2. Entrar al directori del projecte:
+2. Get in the repository folder:
     ```sh
-    cd nom-repositori
+    cd G16TFGConnect
     ```
-3. Instal·lar les dependències:
+3. Install the dependencies (currently none):
     ```sh
     npm install
     ```
 
-## Ús
+## Use
 
-Proporciona exemples i instruccions sobre com utilitzar el projecte. Per exemple:
+Currently there are no uses. This is only a placeholder.
 
   ```sh
   npm start
   ```
 
-## Contribució
+## Contribution
 
 We are group 16.
 # Group members
